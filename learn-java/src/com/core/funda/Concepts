@@ -1,0 +1,11 @@
+== : When you use an double equals operator on two objects(strings in this case),
+	 their addresses will be compared to see if they are same objects. when I say same objects,
+	 a two different objects can contain exactly same data. 
+
+
+Contains : When you use contains on a string, that will verify contents of the string character by character 
+			irrespective of their addresses
+			
+			
+			
+O_DeleteObject -- Till this Concepts all comes under encapsulation

@@ -1,0 +1,12 @@
+Create all the methods in one class
+   Then Access the methods you want by creating an object reference 
+       So whenever you do, it's allocating a memory for all the varaibles 
+       
+       
+       
+   Generating a Random Email Address or Username?
+        
+        int ran;
+    	ran = 100 + (int)(Math.random() * ((10000 - 100) + 1));
+    	Entering the email address will look like this:
+    	driver.findElement(By.id("Email")).sendKeys("signuptest" + ran + "@test.com");
